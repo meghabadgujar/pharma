@@ -1,0 +1,138 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/*navbar*/
+.navbar{  
+    		background:#db858582!important
+    	}
+    	.navbar-nav li{
+    		padding: 0 10px;
+    	}
+    	.navbar-nav li a{
+    		    color: #fff!important;
+            font-weight: 600;
+            font-size: 22px;
+            font-family: inherit;
+            text-shadow: 4px 6px #191bb1;
+
+    	}
+    	.name{
+        font-weight: bolder;
+		    font-size: 30px;
+	     	text-shadow: 3px 4px skyblue;
+    	}
+      .b{
+            text-align: center;
+        }
+    	.border-box{
+ 				border-style: solid;
+ 				border-width:thin;
+   			border-color: #fbab29;
+    	}
+    	.weblogo{
+    		width: 65px;
+    	}
+    	.moblogo{
+    		display: none;
+    	}
+@media(max-width:768px)
+    	{
+    	   .moblogo{
+    		   display:block;
+           width: 65px;
+    	    }
+    	    .weblogo{
+    	    	display: none;
+      	   }
+      	   .navbar{ 
+      	   	background: #e3ce3c!important;
+      	   }
+           .inform{
+                margin-top: 50px!important;
+           }
+           .btn{
+            align-items: center!important;
+           }
+           .Patient img{
+            height: 150px!important;
+           }
+          
+    	}
+.frist{
+  margin-top:100px;
+}
+.inform{
+  font-size: 39px;
+    font-family: fantasy;
+    color: brown;
+    margin-top: 30px;
+}
+p{
+  font-size: 25px;
+  font-family: inherit;
+
+}
+.problems{
+      border-radius: 29px;
+      border-bottom: outset;
+     border-color: cora
+}
+.btn{
+  margin-bottom: 10px;
+}
+.consultimg{
+  height: 414px;
+  margin-top: 20px;
+}
+.Patient{
+    padding-bottom: 65px;
+    background-color: #f8f8f8;;
+}
+.Patient img{
+    height: 119px;
+    border-radius: 14px;
+}
+h6{
+  color: darkred;
+  font-size: 20px;
+  margin-top: 5px;
+}
+.heading p{
+  text-align: center;
+    margin-top: 66px;
+    margin-bottom: 41px;
+    padding-top: 30px;
+    font-size: 30px;
+    
+}
+.Q h1{
+  margin-top: 50px;
+    text-align: center;
+    font-family: initial;
+}
+.answer h3{
+  font-size: 20px;
+  margin-left: 20px;
+  text-shadow: 2px 2px slateblue;
+}
+.answer p{
+  font-size: 18px;
+  margin-left: 20px;
+  text-shadow: 1px 1px red;
+
+
+}
+/*footer*/
+.footerlogo{
+    height: 70px;   
+}
+.fc{
+    color: white;
+    background: black;
+}
+.social-icons a{
+  color: white;
+}

@@ -1,4 +1,3 @@
-
 *{
   margin: 0px;
   padding: 0px;
@@ -53,28 +52,26 @@
            }
         }
 /*navabr end*/
- .login{
-    background: url(https://i.pinimg.com/originals/36/42/29/3642291603d80cbf90ee7421ba227a8b.jpg);
+
+.baby{
+    background: url("https://img.freepik.com/premium-photo/doctor-patient-happy-cute-baby-health-exam-medicine-health-care-concept_663268-561.jpg?w=2000");
     background-position: center;
     background-size: cover;
-    height: 700px;
- }
-.card{
-    margin-top: 100px;
-   
+    height: 550px;
+    margin-top: 17px;
+}
 
+/*footer*/
+.footerlogo{
+    width:70% ;
 }
-.lb{
-    margin-left: 160px;
-    margin-bottom: 50px;
+.fc{
+   background: #edc1c1;
+}
+.social-icons a{
+  color: black;
+}
 
-}
-.hd{
-    margin-top: 60px;
-    font-family: fantasy;
-    text-align: center;
-    text-shadow: 7px 5px 9px cornflowerblue;
-}
 /*footer*/
 .footerlogo{
     height: 70px;   

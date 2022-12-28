@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style >
+		.a{
+			background-color: red;
+			height: 50px;
+		}
+		.b{
+			background-color: blue;
+			width: 500px;
+			height: 100px;
+		}
+	</style>
+</head>
+<body>
+         <div id="header" class="a">
+         	<h1>hello</h1>
+         </div>
+
+
+     <script>
+     	// document.getElementById('header').onclick=a
+     	document.getElementById('header').addEventListener('click',a)
+     	function a() {
+     		//document.getElementById('header').classList.add('b')
+     		document.getElementById('header').classList.remove('b')
+
+     	}
+     </script>
+</body>
+</html>

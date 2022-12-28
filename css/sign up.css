@@ -1,4 +1,7 @@
 
+ @import url('https://fonts.googleapis.com/css2?family=Kenia&family=Noto+Serif+Gujarati&family=Noto+Serif+Telugu:wght@100&display=swap'); 
+ 
+
 *{
   margin: 0px;
   padding: 0px;
@@ -51,30 +54,49 @@
            .navbar{ 
             background: #e3ce3c!important;
            }
+           .newlogo{
+            margin-left: 124px!important;
+           }
         }
 /*navabr end*/
- .login{
-    background: url(https://i.pinimg.com/originals/36/42/29/3642291603d80cbf90ee7421ba227a8b.jpg);
-    background-position: center;
+.bag{
+
+	background-image:url(../images/b1.jpg);
+	background-position: center;
     background-size: cover;
-    height: 700px;
- }
-.card{
-    margin-top: 100px;
-   
-
-}
-.lb{
-    margin-left: 160px;
-    margin-bottom: 50px;
-
-}
-.hd{
-    margin-top: 60px;
-    font-family: fantasy;
+    height: 550px;
     text-align: center;
+}
+span{
+	color: white;
+}
+.heading{
+	margin-top: 233px;
+    font-size: 61px;
     text-shadow: 7px 5px 9px cornflowerblue;
 }
+.why{
+	background-color: cornsilk;
+}
+.new{
+	text-align:center;
+	font-family: 'Kenia', cursive;
+}
+.cd{ 
+     font-size: 20px;
+	font-family:emoji;
+       background: rgb(48 170 217 / 17%);
+       margin-bottom: 40px;
+       border: none;
+}
+.newlogo{
+	width: 30%;
+    margin-left: 190px;
+}
+.btn{
+    margin-bottom: 20px;
+}
+
 /*footer*/
 .footerlogo{
     height: 70px;   
@@ -84,5 +106,5 @@
     background: black;
 }
 .social-icons a{
-  color: white;
+      color: white;
 }

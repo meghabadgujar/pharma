@@ -1,68 +1,158 @@
 *{
-	margin: 0px;
-	padding: 0px;
-	box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
+
 /*navbar*/
-.navbar{
+.navbar{  
     		background:#db858582!important
     	}
     	.navbar-nav li{
     		padding: 0 10px;
     	}
     	.navbar-nav li a{
-    		color: #fff!important;
-    		font-weight: 600;
-    		font-size: 18px;
-    		font-family: inherit;
+    		    color: #fff!important;
+            font-weight: 600;
+            font-size: 22px;
+            font-family: inherit;
+            text-shadow: 4px 6px #191bb1;
+
     	}
-    	.b{
-    		text-align: center;
+    	.name{
+        font-weight: bolder;
+		    font-size: 30px;
+	     	text-shadow: 3px 4px skyblue;
     	}
+      .b{
+            text-align: center;
+        }
     	.border-box{
  				border-style: solid;
- 				 border-width:thin;
-   				 border-color: #fbab29;
+ 				border-width:thin;
+   			border-color: #fbab29;
     	}
     	.weblogo{
     		width: 65px;
-    		margin-left: 210px;
     	}
     	.moblogo{
     		display: none;
     	}
-    	@media(max-width:768px)
+@media(max-width:768px)
     	{
     	   .moblogo{
-    		display:block;
+    		   display:block;
+           width: 65px;
     	    }
     	    .weblogo{
     	    	display: none;
       	   }
       	   .navbar{ 
       	   	background: #e3ce3c!important;
-      	   }	
+      	   }
+           .first{
+            height: 380px!important;
+           }
+           
+           .doctor a{
+            margin-left: 68px!important;
+           }
     	}
 
-  /*slider*/
-  .carousel-caption{
-                       color: #fff;
-                       position: absolute;
-                       top: 27%;
-                       left: 153px;
-  }
-  /*product images*/
-  .ml-1{
-    padding-top: 20px;
-    text-transform: uppercase;
-    font-family: emoji;
-    letter-spacing: 3px;
+.first{
+  height: 630px;
+}
+.pro{
+  margin-top: 30px;
+   font-family: fantasy;
+    text-align: center;
+    text-shadow: 7px 5px 9px cornflowerblue;
+    margin-bottom: 20px;
+}
+.mr{
+  margin-top: 200px;
+  font-size: 65px;
+    color: red;
+    text-shadow: 5px 6px 5px cornflowerblue;
+    font-weight: bold;
+    font-style: oblique;
+    font-family: 'Font Awesome';
+}
+.product{
+  padding: 15px;
+  text-align: center;
+  transition: 1s;
+  border-radius: 5px;
+}
+span{
+  color: red;
+
+}
+.product img:hover{
+    transform:scale(1.3);
+    z-index:2;
+}
+
+
+.banner2{
+  background-color:#f8f9fa ;
+  margin-bottom: 10px;
+   
+}
+ .banner2 img{
+     height: 200px;
+}
+.Consult h2{
+    text-shadow: 7px 5px 9px cornflowerblue;
+
+}
+.doctor{
+  margin-top: 50px;
+  background: #f8f9fa;
+} 
+.doctor a{
+  margin-left: 180px;
+    margin-top: 50px;
+    width: 205px;
+    height: 52px;
+    text-align: center;
+    font-size: 22px;
+    box-shadow: 5px 7px lightskyblue;
+    border: none;
+}
+.doctor a:hover{
+  background: lightskyblue;
+}
+.doctorimg{
+  height: 380px;
+  width: 100%;
+}
+.doctor p{
+  font-family: initial;
+  font-size: 20px;
+}
+.how h3{
+  text-shadow: 2px 2px greenyellow;
+}
+.how p{
+  font-size: 18px;
+    margin-left: 20px;
+    text-shadow: 1px 1px red;
+}
+.work{
+  text-align: center;
+  text-shadow: 2px 2px skyblue;
+  
 }
 /*footer*/
 .footerlogo{
-	width:70% ;
-	
+    height: 70px;	
 }
 .fc{
-    background: #edc1c1;;
+    color: white;
+    background: black;
 }
+.social-icons a{
+  color: white;
+}
+
